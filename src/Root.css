@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+* {
+  text-decoration: none;
+  list-style-type: none;
+}
+@font-face {
+  font-family: "Azo Sans Uber";
+  src: url(./fonts/FontsFree-Net-AzoSans.ttf);
+}
+.ff_azo {
+  font-family: "Azo Sans Uber";
+}
+.ff_montserrat {
+  font-family: "Montserrat";
+}
+:root {
+  /*----------------------------- colors------------------------ */
+
+  --color-white: rgba(255, 255, 255, 1);
+  --color-yellow: rgba(241, 200, 93, 1);
+  /*--------------------------------- bg-colors ---------------------*/
+  --bg-black: #000000;
+  --bg-yellow: rgba(253, 218, 96, 1);
+  --bg-grey: rgba(255, 255, 255, 0.2);
+
+  /* --------------------------- font-size----------------------*/
+  --fs-xxl: 64px;
+  --fs-xl: 36px;
+  --fs-lg: 24px;
+  --fs-xmd: 22px;
+  --fs-md: 20px;
+  --fs-sm: 16px;
+}
+.color_white {
+  color: var(--color-white);
+}
+.color_yellow {
+  color: var(--color-yellow);
+}
+.bg_black {
+  background-color: var(--bg-black);
+}
+.bg_yellow {
+  background: var(--bg-yellow);
+}
+.bg_grey {
+  background: var(--bg-grey);
+}
+
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xmd {
+  font-size: var(--fs-xmd);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+@media (max-width: 576px) {
+  :root {
+    --fs-xxl: 44px !important;
+    --fs-md: 18px;
+    --fs-sm: 14px;
+  }
+}
+@media (max-width: 768px) {
+  :root {
+    --fs-xxl: 54px;
+    --fs-md: 18px;
+    --fs-sm: 14px;
+  }
+}
+@media (max-width: 992px) {
+  :root {
+    --fs-xxl: 54px;
+    --fs-md: 18px;
+    --fs-sm: 14px;
+  }
+}
+@media (max-width: 1200px) {
+  :root {
+    --fs-xxl: 54px;
+    --fs-md: 18px;
+    --fs-sm: 14px;
+  }
+}
